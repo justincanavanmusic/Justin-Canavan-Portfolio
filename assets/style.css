@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    display: flex; 
+    /* align-items: center; */
+    
+}
+
+h1 {
+        font-size: 2em;
+        font-weight: bold;
+        border: 1px  solid black;
+        background-color: turquoise;
+        border-width: 5px 0 15px 0;
+        width: 30%;
+        padding: 5px;
+        text-align: right;
+    
+    }
+#title-display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    border: 1px solid black;
+    float: right;
+    width: 70%;
+    color: turquoise;
+    background-color: black;
+    text-align: right;
+    padding: 30px 70px 30px 30px;
+    
+}
+
+#nav-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+nav a {
+    margin: 10px;  
+    color: turquoise;
+    font-size: 1.3em;
+    
+} 
+
+/* tablet upright */
+@media screen and (max-width: 768px) {   
+    h1 {
+      font-size: 1.8em;  
+      align-items: center;
+    }
+    nav a {
+        font-size: 1.2em;
+        justify-content: space-between;
+        
+    }
+}
+
+/* nav breakpoint */
+@media screen and (max-width: 404px) {   
+    nav a {
+      flex-direction: column; 
+      font-size: 1.5em;
+      
+    }
+}
+
+/* h1 2nd breakpoint */
+@media screen and (max-width: 420px) {  
+    h1 {
+      font-size: 1.8em;
+    }
+} 
