@@ -28,12 +28,12 @@ h1 {
     align-items: center;
     justify-content: flex-end;
 } */
-                    /* nav */
+                    /* nav bar */
 nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    /* display: flex; */
+    font-size: 2.1vw;
     border: 1px solid black;
     float: right;
     width: 70%;
@@ -56,7 +56,7 @@ nav a {
     font-size: 1.5em;
 } 
                     /* banner text */
-aside {              
+#banner {              
     /* display: flex;
     flex-wrap: wrap; */
     display: flex;
@@ -88,19 +88,20 @@ aside {
     margin-bottom: 15px;
 }
 
-/* main {
+
+section {
+    display: flex;
     
-    
-} */
+}
                 /* about me */
-.about-me, .work {                
+.section-titles {                
     font-size: 7vw;
     width: 25%;
     padding: 7px 10px 50px 100px;
     border-right: 3px solid black;
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: right;
     
 }
@@ -108,32 +109,63 @@ aside {
 h2 {
     display: flex;
     /* flex-direction: column; */
-    /*  */
+    
 }
 
-main p {
+.paragraphs {
     
-    margin: 20px 65px 20px 20px;
+    margin: 50px 65px 20px 30px;
     border: 1px white solid;
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
+    line-height: 25px;
+    
     
     /* align-items: flex-end; */
 }
 
-.box {
+/* .box {
     display: flex;
     margin: 20px;
     border: 1px black solid;
+} */
 
-    
+#big-box {
+    border: 3px solid turquoise;
+    margin: 55px 40px 10px 35px;
+    width: 65vw;
+    height: 40vh;
+    background-color: grey;
+
 }
-
-section {
+div {
     display: flex;
-    flex-direction: row;
+    
+}
+
+h4 {
+    display: flex;
+    align-items: flex-start;
 }
     
+.mini-boxes {
+    font-size: 3vh;
+    border: solid 1px turquoise;
+    background-color: turquoise;
+    display: block;
+    line-height: 30px;
+   
+    /* align-items: flex-end; */
+    padding: 10px;
+    margin: 30vh 10px 2vh 0; 
+}
+
+h6 {
+    font-size: 1.5vh;
+    
+}
+
+
 
             
             
