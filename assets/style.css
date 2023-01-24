@@ -88,14 +88,13 @@ aside {
     margin-bottom: 15px;
 }
 
-main {
-    display: flex;
+/* main {
     
     
-}
+} */
                 /* about me */
-.about-me {                
-    font-size: 7vh;
+.about-me, .work {                
+    font-size: 7vw;
     width: 25%;
     padding: 7px 10px 50px 100px;
     border-right: 3px solid black;
@@ -108,8 +107,8 @@ main {
 
 h2 {
     display: flex;
-    flex-direction: column;
-    
+    /* flex-direction: column; */
+    /*  */
 }
 
 main p {
@@ -132,7 +131,7 @@ main p {
 
 section {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
 }
     
 
