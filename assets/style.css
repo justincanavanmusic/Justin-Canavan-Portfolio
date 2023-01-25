@@ -145,11 +145,16 @@ h2 {
     display: flex;
     
 } */
+                /* work links */
+section a {        
+    text-decoration: none;
+    color: rgb(53, 21, 21);
+}
 
-h4 {
+/* h4 {
     display: flex;
     align-items: flex-start;
-}
+} */
                 /* Surf Report Box */
 .mini-box-1 {       
     font-size: 3vh;
@@ -218,22 +223,22 @@ h6 {
 
 footer {
     display: flex;
-    
+    flex-direction: row;
 }
 /* 
 a {
     margin-top: 50vh;
 } */
 
-.footer-links a {
+.footer-links {
     color: blue;
     margin: 2vh 0.2vw 2.5vh 2vw;
-    /* padding-top: 5vh; */
-    /* display: flex; */
-    /* justify-content: flex-end; */
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
     /* flex-direction: row; */
     width: 100%;
-   display: flex;
+    /* display: flex; */
     font-size: 2.3vh;
     flex-wrap: wrap;
     
@@ -306,12 +311,43 @@ a {
     h1 {
         line-height: 50px; 
         text-align: center;
+        
     }
+    nav {
+        flex-direction: column;
+        font-size: 2vh;
+    }
+
     .section-titles   {
-        width: 15%;
+        width: 17%;
         font-size: 3.7vh;
            
         }
+    .footer-links {
+        flex-direction: column;
+        /* display: flex; */
+        align-content: space-around;
+        flex-wrap: wrap;
+        line-height: 4vh;
+    }
+    .section-titles   {
+        width: 17%;
+        font-size: 2.7vh;
+
+        }
+
+        .mini-box-1   {
+            width: 25%;
+            font-size: 1.8vh;
+    
+            }     
+
+
+        .mini-boxes   {
+            /* width: 17%; */
+            font-size: 2vh;
+    
+            }     
     }
     
 
